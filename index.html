@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="css/animate.css">
+
+<link rel="shortcut icon" href="favicon.ico">  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-6 col-lg-12 ">
+		<a href="index.html" class='header-logo'><p>Black sea</p></a>
+	</div>
+	<div class="col-xl-6">
+		<ul class="ul ">
+			<li><a href="#" class=''>Home</a></li>
+			<li><a href="#" class=''>About me </a></li>
+			<li><a href="#">Portfolio </a></li>
+			<li><a href="#">Contact me</a></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+	</header>
+	<section>
+	<div class="container">
+		<div class="main-img">
+			<div class="row main-pretitle wow fadeInRight" data-wow-delay='.5s'>
+				<h3>We need the tonic of wildness</h3></br>
+
+			
+			</div>
+			<div class="main-button wow fadeInLeft" data-wow-delay='.3'>
+<a href="#">Read more</a>
+		</div>
+		</div>
+			<hr>
+	<div class="main-portfolio wow fadeInUp" data-wow-delay='.2'>
+<h3>At the same time that we are earnest to explore 
+& learn all things</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo autem placeat, natus aliquam nostrum, omnis rem blanditiis, libero ut inventore soluta. Vitae est provident itaque, neque soluta officiis, consequuntur animi?</p>
+<div class="main-portfolio-img">
+<a href="#"><img src="img/shape-2.png" alt=""></a>
+<a href="#"><img src="img/shape-3.png" alt=""></a>
+<a href="#"><img src="img/shape-4.png" alt=""></a>
+</div>
+</div>
+<hr>
+<div class="main-info wow fadeInRight" data-wow-delay='.2s'>
+	
+	<img src="img/layer-3.png" alt="">
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting
+
+
+
+
+</p>
+	
+</div>
+
+</div>
+	<button class="btn-top" title='Go to Top'><i class="fas fa-arrow-up"></i>
+		
+	</button>
+
+	</section>
+	<footer >
+		
+			<div class="footer-main">
+				<p>Copyright :&copy;2018</p>
+				
+			</div>
+	</footer >
+
+	<script src='js/wow.min.js'>
+		
+	</script>
+	<script>
+new WOW().init();
+</script>
+
+	<script>
+		var $btnTop=$('.btn-top');
+		$(window).on('scroll',function () {
+			if($(window).scrollTop()>=20){
+				$btnTop.fadeIn(500);
+			}else{
+				$btnTop.fadeOut(500);
+			}
+		});
+		$btnTop.on('click',function () {
+			$('html,body').animate({scrollTop:0},1000)
+		})
+	</script>
+</body>
+</html>
